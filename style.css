@@ -1,3 +1,15 @@
+
+  @keyframes anim {
+    0%{left: 0%;}
+    25%{left: 40%;}
+    75%{left: -40%;}
+    100%{left: 0%;}
+  }
+
+
 h1{
     text-align: center;
+    position: relative;
+    color: blue;
+    animation: anim 100s linear 0s infinite ;
 }
