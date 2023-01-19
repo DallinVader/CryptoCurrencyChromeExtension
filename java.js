@@ -1,7 +1,7 @@
 
 getCryptoCompare()
 SetImages()
-setInterval(getCryptoCompare, 1000);
+setInterval(getCryptoCompare, 3500);
 
 function SetImages(){
     $.when(
