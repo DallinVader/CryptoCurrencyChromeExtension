@@ -1,4 +1,3 @@
-
   @keyframes anim {
     0%{left: 0%;}
     25%{left: 40%;}
@@ -12,4 +11,13 @@ h1{
     position: relative;
     color: blue;
     animation: anim 100s linear 0s infinite ;
+}
+h2{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+img{
+    max-width: 5%;
+    
 }
