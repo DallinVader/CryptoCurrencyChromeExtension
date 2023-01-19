@@ -18,6 +18,26 @@ h2{
 }
 
 img{
-    max-width: 5%;
-    
+    max-width: 100%;
+}
+
+.grid {
+  border:3px solid black;
+  margin: auto;
+  font-weight: 500;
+  font-size: small;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+table, th, td {
+  border:3px solid black;
+  margin: auto;
+  font-family: starwars;
+  font-weight: 500;
+  font-size: small;
+  color: rgb(0, 0, 0);
+  text-align: center;
 }
