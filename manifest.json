@@ -1,0 +1,12 @@
+
+
+{
+    "name": "Sand Btc and Eth tracker",
+    "version" : "0.1.0",
+    "description" : "Realtime Crypto Currency Tracker",
+    "author": "Dallin Whitaker",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "Sand, Eth, and Bitcoin Prices"
+    }
+}
